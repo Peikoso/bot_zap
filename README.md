@@ -24,3 +24,9 @@ docker compose up --build
 ````
 
 ### 4. Autentique o Whatsapp pelo QR code no terminal
+
+### E pronto o bot ja esta rodando, mande uma mensagem começando com !pikkos e passe sua mensagem
+### Exemplo:
+```bash
+!pikkos ta on?
+````
