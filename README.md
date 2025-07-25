@@ -9,11 +9,11 @@ Este projeto é um bot automatizado para interações via WhatsApp. Ele utiliza 
 ### 1. Clone o repositório
 
 ```bash
-git clone https://github.com/seu-usuario/bot_zap.git
+git clone https://github.com/peikoso/bot_zap.git
 cd bot_zap
 ````
 
-### 2. Crie o arquivo .env
+### 2. Crie o arquivo .env dentro de python_project
 ```bash
 GOOGLE_API_KEY=
 ````
