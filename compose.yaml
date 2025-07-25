@@ -1,0 +1,17 @@
+services:
+  python_api:
+    image: python_api
+    build: 
+      context: ./python_project
+    ports:
+      - "8000:8000"
+    env_file:
+      - ./python_project/.env
+  
+  node_zap:
+    image: node_zap
+    build:
+      context: ./node_project
+    depends_on:
+      - python_api
+      

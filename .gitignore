@@ -1,0 +1,44 @@
+# ======================
+# Node.js (node_project)
+# ======================
+node_project/node_modules/
+node_project/.env
+node_project/.DS_Store
+node_project/npm-debug.log*
+node_project/yarn-debug.log*
+node_project/yarn-error.log*
+node_project/dist/
+node_project/build/
+node_project/.next/
+node_project/.turbo/
+node_project/.parcel-cache/
+
+# wwebjs (whatsapp-web.js)
+node_project/.wwebjs_auth/
+node_project/.wwebjs_cache/
+
+# ======================
+# Python (python_project)
+# ======================
+python_project/__pycache__/
+python_project/*.py[cod]
+python_project/.Python
+python_project/env/
+python_project/venv/
+python_project/.venv/
+python_project/.env
+python_project/.mypy_cache/
+python_project/.pytest_cache/
+python_project/.vscode/
+python_project/.DS_Store
+
+# ======================
+# Global (qualquer pasta)
+# ======================
+*.log
+*.swp
+.DS_Store
+Thumbs.db
+.env
+.vscode/
+.idea/
